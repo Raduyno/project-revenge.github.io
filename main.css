@@ -30,7 +30,7 @@ a:active {
 	border-radius: 2px;
 	color: #fff;
 	padding: 10px;
-	width: 320px;
+	width: 340px;
 	box-shadow: rgba(0,0,0,0.3) 0px 1px 4px, inset rgba(255,255,255,0.13) 0px 1px 0px;
 	margin-right: 8px;
 }
@@ -92,6 +92,10 @@ footer {
 
 #wrapper {
   display:flex;
+}
+
+.discord {
+	float: right;
 }
 
 /* { overflow: hidden !important; } /* I have never in my life been this lazy in CSS */
