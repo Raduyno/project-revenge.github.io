@@ -1,0 +1,84 @@
+body {
+	background: linear-gradient(to right, #e2e2e2, #adadad);
+	font: normal 13px 'Neo Sans Pro', Ubuntu, helvetica, arial, sans-serif;
+}
+
+a:link,
+a:visited {
+	color: #3f9889;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: none;
+	border-color: #2aaf28;
+	transition: color 350ms;
+	color: #2aaf28 !important;
+}
+
+#content {
+	background: rgba(255,255,255,0.4);
+	padding: 10px 10px;
+	margin: auto auto;
+	border-radius: 2px;
+	box-shadow: rgba(0,0,0,0.7) 0px 1px 8px, inset rgba(0,0,0,0.4) 0px 0px 0px 1px;
+}
+.navigation {
+	background: #333333;
+	border-radius: 2px;
+	color: #fff;
+	padding: 10px;
+	width: 320px;
+	box-shadow: rgba(0,0,0,0.3) 0px 1px 4px, inset rgba(255,255,255,0.13) 0px 1px 0px;
+	margin-right: 8px;
+}
+
+br {
+	clear: left;
+}
+
+.title {
+    color: #fff;
+	padding: -60;
+}
+
+.nav {
+	background: #333333;
+	padding: 10;
+	text-decoration: none;
+	font-family: 'Neo Sans Pro', Ubuntu, sans-serif;
+	font-size: 25px;
+	border-radius: 5px;
+}
+
+.nav ul,
+.nav ul li {
+    float: right;
+	display: inline;
+}
+.nav ul li a {
+    float: right;
+	text-decoration: none;
+    color: #fff;
+	margin-right: 10;
+	margin-top: -6;
+}
+
+#main {
+	width: 95%;
+	margin: auto auto;
+}
+footer {
+	background: #333333;
+	width: auto;
+	color: rgb(248,248,248);
+	padding: 10px;
+	height: auto;
+	box-shadow: rgba(0,0,0,0.7) 0px 1px 8px, inset rgba(0,0,0,0.4) 0px 0px 0px 1px;
+	background-clip: padding-box;
+	border-radius: 2px;
+}
+
+#wrapper {
+  display:flex;
+}
